@@ -24,7 +24,7 @@ h1 {
 #grid ol {
     border-right: 1px solid gray;
     width: 100px;
-    padding: 20px ;
+    padding: 20px  ;
     margin: 0 ;
 }
 
@@ -57,5 +57,14 @@ a {
         border-right: none;
         width: 100%;
         list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        border-bottom: 1px solid gray;
+
+    }
+
+    #article {
+        padding-left: 0;
     }
 }
