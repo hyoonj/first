@@ -13,13 +13,13 @@ h1 {
         
 }
 
-#grid   {
+.grid   {
     display: grid;
     grid-template-columns: 150px 1fr;
     
 }
 
-#grid ol {
+.grid ol {
     border-right: 1px solid gray;
     width: 100px;
     padding: 20px  ;
@@ -39,7 +39,7 @@ a {
 
 
 @media screen and (max-width: 768px) {
-    #grid   {
+    .grid   {
         display: block;
         
         text-align: center;
@@ -47,7 +47,7 @@ a {
         
     
     }
-    #grid ol {
+    .grid ol {
         border-right: none;
         width: 100%;
         list-style: none;
