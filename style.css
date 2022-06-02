@@ -61,4 +61,8 @@ a {
     #article {
         padding-left: 0;
     }
+
+    #article img {
+        width: 60%;
+    }
 }
