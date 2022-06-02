@@ -41,11 +41,24 @@ a {
 @media screen and (max-width: 768px) {
     #grid   {
         display: block;
-            }
+        
+        text-align: center;
+        
+        
+    
+    }
     #grid ol {
         border-right: none;
-        
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        border-bottom: 1px solid gray;
+
     }
 
- 
+    #article {
+        padding-left: 0;
+    }
 }
